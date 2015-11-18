@@ -17,7 +17,7 @@ Despite the existence of several excellent libraries for driving stepper motors,
 
 #include <Arduino.h>
 
-enum driveMode_t: uint8_t
+enum driveMode_t
 {
     FULL_STEP = 0,
     HALF_STEP = 1,
@@ -29,14 +29,14 @@ enum driveMode_t: uint8_t
     MICROSTEP_128 = 7
 };
 
-enum accelState_t: int8_t
+enum accelState_t
 {
     DECELERATING = -1,
     CONSTVEL = 0,
     ACCELERATING = 1
 };
 
-enum moveState_t: int8_t
+enum moveState_t
 {
     BACKWARD = -1,
     STOPPED = 0,

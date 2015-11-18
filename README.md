@@ -3,6 +3,9 @@ This is a lightweight Arduino library for stepper motor controllers that use STE
 
 Written by Rylee Isitt
 
+## You are on the IDE106compatible branch.
+this version should be compatible with Arduino IDE 1.0.6
+
 ## Features:
 * Fast performance, uses port access to toggle the STEP pin
 * Speed is set in full steps per second

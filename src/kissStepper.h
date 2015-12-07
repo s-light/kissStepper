@@ -128,7 +128,7 @@ public:
     int32_t reverseLimit;
     const uint8_t fullStepVal;
 
-private:
+protected:
     static const uint8_t PINVAL_FORWARD = LOW;
     static const uint8_t PINVAL_BACKWARD = HIGH;
     static const uint8_t PINVAL_ENABLED = LOW;

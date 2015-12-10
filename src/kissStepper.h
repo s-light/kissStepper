@@ -78,8 +78,8 @@ public:
          fullStepVal(1 << microstepConfig.maxMicrostepMode) {}
 
     void begin(driveMode_t mode = MICROSTEP_128, uint16_t maxStepsPerSec = 100, uint16_t accelStepsPerSecPerSec = 0);
-    void enable(void);
-    void disable(void);
+    virtual void enable(void);
+    virtual void disable(void);
     void setDriveMode(driveMode_t mode);
     driveMode_t getDriveMode(void)
     {
